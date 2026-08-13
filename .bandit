@@ -1,0 +1,51 @@
+# Bandit configuration file
+
+assert_used:
+  skips: []
+
+hardcoded_password_string:
+  word_list: []
+
+hardcoded_sql_string:
+  word_list: []
+
+hardcoded_tmp_directory:
+  tmp_dirs: []
+
+insecure_hash_functions:
+  weak_key_size: 2048
+
+insecure_ssl_protocol:
+  good_ssl_protocols:
+    - PROTOCOL_TLSv1_2
+    - PROTOCOL_TLS
+
+paramiko_calls:
+  shell: []
+
+standard_library_import_tampering:
+  skips: []
+
+start_processes_with_a_shell:
+  skips: []
+
+start_processes_with_no_shell:
+  skips: []
+
+subprocess_without_shell_equals_true:
+  skips: []
+
+subprocess_popen_with_shell_equals_true:
+  skips: []
+
+try_except_pass:
+  skips: []
+
+try_except_requests:
+  skips: []
+
+unverified_context:
+  skips: []
+
+yaml_load:
+  skips: []
