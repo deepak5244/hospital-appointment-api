@@ -178,9 +178,27 @@ To enable Docker Hub publishing:
 
 1. Add GitHub Secrets:
    - `DOCKER_USERNAME`: Your Docker Hub username
-   - `DOCKER_PASSWORD`: Your Docker Hub password or token
+   - `DOCKER_PASSWORD`: Your Docker Hub Personal Access Token (not password)
 
 2. Push to `main` branch to trigger the workflow
+
+**For complete setup instructions, see:**
+- `DOCKER_HUB_SETUP.md` - Step-by-step GitHub Secrets and Docker Hub configuration
+- `CICD_SETUP.md` - Complete CI/CD pipeline architecture and verification guide
+- `SUBMISSION_GUIDE.md` - Assignment completion and submission requirements
+
+## Documentation
+
+Comprehensive guides for setup and deployment:
+
+| Document | Purpose |
+|----------|---------|
+| [README.md](README.md) | General project overview (this file) |
+| [DOCKER_HUB_SETUP.md](DOCKER_HUB_SETUP.md) | Docker Hub account setup and GitHub Secrets configuration |
+| [CICD_SETUP.md](CICD_SETUP.md) | CI/CD pipeline architecture and verification checklist |
+| [SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md) | Complete assignment status and submission requirements |
+
+Start with `DOCKER_HUB_SETUP.md` if you're setting up the project for the first time.
 
 ## Project Structure
 
