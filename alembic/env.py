@@ -12,7 +12,7 @@ from alembic import context
 config = context.config
 
 # Interpret the config file for Python logging.
-# This line sets up loggers basically.
+# This line sets up loggers basicallypuhpioj.
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
